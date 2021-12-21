@@ -1,20 +1,38 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useRef } from 'react';
+import { Link, withRouter } from 'react-router-dom';
+import { Accounts } from 'meteor/accounts-base';
 
-function SignUp() {
+function SignUp(props) {
+  const email = useRef();
+  const password = useRef();
   const sendSignUp = (e) => {
     e.preventDefault();
+    if (password.current.value.length < 9) {
+      console.log('password is less than 9');
+    }
+    // meteor Account
+    Accounts.createUser(
+      {
+        email: email.current.value.trim(),
+        password: password.current.value.trim(),
+      },
+      (err) => {
+        console.log('Signup callback', err);
+      }
+    );
   };
   return (
     <div>
       <h1>SignUp</h1>
       <form onSubmit={sendSignUp}>
         <input
+          ref={email}
           type="email"
           name="email"
           placeholder="Email"
         />
         <input
+          ref={password}
           type="password"
           name="password"
           placeholder="Password"
@@ -28,4 +46,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default withRouter(SignUp);

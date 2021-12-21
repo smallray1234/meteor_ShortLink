@@ -1,11 +1,18 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import { Redirect, useHistory } from 'react-router-dom';
+import { Accounts } from 'meteor/accounts-base';
 
-function Links() {
+function Links(props) {
+  const { isAuth } = props;
   const history = useHistory();
   const onLogout = () => {
+    Accounts.logout();
     history.push('/');
   };
+  if (!isAuth) {
+    alert('You have to login to use this function.');
+    return <Redirect to="/login" />;
+  }
   return (
     <div>
       <h1>Links here</h1>
