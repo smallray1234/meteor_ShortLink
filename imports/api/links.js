@@ -1,3 +1,3 @@
 import { Mongo } from 'meteor/mongo';
 
-export const LinksCollection = new Mongo.Collection('links');
+export const Links_API = new Mongo.Collection('links');
