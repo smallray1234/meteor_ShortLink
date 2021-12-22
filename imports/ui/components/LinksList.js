@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Meteor } from 'meteor/meteor';
 import { useTracker } from 'meteor/react-meteor-data';
-import { Links_API } from '../api/links';
+
+import { Links_API } from '../../api/links';
+import LinkListItem from './LinkListItem';
 
 function LinksList() {
     const [links, setLinks] = useState([]);
@@ -12,16 +14,27 @@ function LinksList() {
     }, []);
     // console.log('links:', links);
     return (
-        <div>
+        <>
+            <h2>Your Links</h2>
             <p>Link List</p>
             {links.length === 0 ? (
                 <span>There is no links exist.</span>
             ) : (
                 links.map((v) => {
-                    return <p key={v._id}>- {v.url}</p>;
+                    const shortUrl = Meteor.absoluteUrl(
+                        v._id
+                    );
+                    return (
+                        <LinkListItem
+                            key={v._id}
+                            shortUrl={shortUrl}
+                            url={v.url}
+                            userId={v.userId}
+                        />
+                    );
                 })
             )}
-        </div>
+        </>
     );
 }
 
