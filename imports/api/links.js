@@ -1,3 +1,34 @@
 import { Mongo } from 'meteor/mongo';
+import { Meteor } from 'meteor/meteor';
+import SimpleSchema from 'simpl-schema';
 
 export const Links_API = new Mongo.Collection('links');
+
+if (Meteor.isServer) {
+  Meteor.publish('links', function () {
+    return Links_API.find({ userId: this.userId });
+  });
+}
+
+Meteor.methods({
+  'links.insert'(urlTxt) {
+    if (!this.userId) {
+      // not login check
+      throw new Meteor.Error('No-authorized');
+    }
+    // schema
+    new SimpleSchema({
+      urlTxt: {
+        type: String,
+        label: 'The URL Link', //會成為error message的主詞
+        regEx: SimpleSchema.RegEx.Url,
+      },
+    }).validate({ urlTxt });
+
+    // insert method
+    Links_API.insert({
+      url: urlTxt,
+      userId: this.userId,
+    });
+  },
+});

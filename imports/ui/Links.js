@@ -1,4 +1,5 @@
 import React from 'react';
+import { Meteor } from 'meteor/meteor';
 import { Redirect, useHistory } from 'react-router-dom';
 import { Accounts } from 'meteor/accounts-base';
 
@@ -21,7 +22,7 @@ function Links(props) {
     e.preventDefault();
     const urlTxt = e.target.url.value.trim();
     if (urlTxt) {
-      Links_API.insert({ url: urlTxt });
+      Meteor.call('links.insert', urlTxt);
       e.target.url.value = '';
     }
   };
