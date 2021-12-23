@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import { Meteor } from 'meteor/meteor';
 import { useTracker } from 'meteor/react-meteor-data';
+import { Session } from 'meteor/session';
 
 import { Links_API } from '../../api/links';
 import LinkListItem from './LinkListItem';
 
 function LinksList() {
-    const [links, setLinks] = useState([]);
+    const [links, setLinks] = useState([{}]);
     useTracker(() => {
         Meteor.subscribe('links');
-        const newLinks = Links_API.find().fetch();
+        const newLinks = Links_API.find({
+            visible: Session.get('showVisible'),
+        }).fetch();
         setLinks(newLinks);
     }, []);
-    // console.log('links:', links);
     return (
         <>
             <h2>Your Links</h2>
@@ -26,10 +28,11 @@ function LinksList() {
                     );
                     return (
                         <LinkListItem
-                            key={v._id}
+                            key={`key${v._id}`}
                             shortUrl={shortUrl}
                             url={v.url}
-                            userId={v.userId}
+                            _id={v._id}
+                            visible={v.visible}
                         />
                     );
                 })

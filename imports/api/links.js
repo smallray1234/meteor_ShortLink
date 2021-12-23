@@ -5,30 +5,56 @@ import SimpleSchema from 'simpl-schema';
 export const Links_API = new Mongo.Collection('links');
 
 if (Meteor.isServer) {
-  Meteor.publish('links', function () {
-    return Links_API.find({ userId: this.userId });
-  });
+    Meteor.publish('links', function () {
+        return Links_API.find({ userId: this.userId });
+    });
 }
 
 Meteor.methods({
-  'links.insert'(urlTxt) {
-    if (!this.userId) {
-      // not login check
-      throw new Meteor.Error('No-authorized');
-    }
-    // schema
-    new SimpleSchema({
-      urlTxt: {
-        type: String,
-        label: 'The URL Link', //會成為error message的主詞
-        regEx: SimpleSchema.RegEx.Url,
-      },
-    }).validate({ urlTxt });
+    'links.insert'(urlTxt) {
+        if (!this.userId) {
+            // not login check
+            throw new Meteor.Error('No-authorized');
+        }
+        // schema
+        new SimpleSchema({
+            urlTxt: {
+                type: String,
+                label: 'The URL Link', //會成為error message的主詞
+                regEx: SimpleSchema.RegEx.Url,
+            },
+        }).validate({ urlTxt });
 
-    // insert method
-    Links_API.insert({
-      url: urlTxt,
-      userId: this.userId,
-    });
-  },
+        // insert method
+        Links_API.insert({
+            url: urlTxt,
+            userId: this.userId,
+            visible: true,
+        });
+    },
+
+    'links.setVisibleValue'(_id, visible) {
+        if (!this.userId) {
+            throw new Meteor.Error('No-authorized');
+        }
+        new SimpleSchema({
+            _id: {
+                type: String,
+                min: 1,
+            },
+            visible: {
+                type: Boolean,
+            },
+        }).validate({ _id, visible });
+
+        Links_API.update(
+            {
+                _id: _id,
+                userId: this.userId,
+            },
+            {
+                $set: { visible },
+            }
+        );
+    },
 });

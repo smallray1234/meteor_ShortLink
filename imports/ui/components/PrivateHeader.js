@@ -9,10 +9,10 @@ function PrivateHeader() {
         history.push('/');
     };
     return (
-        <>
+        <div>
             <h1>Links here</h1>
             <button onClick={onLogout}>Logout</button>
-        </>
+        </div>
     );
 }
 

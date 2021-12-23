@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Meteor } from 'meteor/meteor';
 
 function AddLink() {
+    const [url, setUrl] = useState('');
     const sendAddLinks = (e) => {
         e.preventDefault();
-        const urlTxt = e.target.url.value.trim();
+        const urlTxt = url;
         if (urlTxt) {
             Meteor.call('links.insert', urlTxt);
-            e.target.url.value = '';
+            setUrl('');
         }
     };
     return (
@@ -18,6 +19,10 @@ function AddLink() {
                     type="text"
                     name="url"
                     placeholder="URL"
+                    value={url}
+                    onChange={(e) => {
+                        setUrl(e.target.value.trim());
+                    }}
                 />
                 <button>Add Link</button>
             </form>
