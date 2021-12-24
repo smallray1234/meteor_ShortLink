@@ -23,9 +23,7 @@ function LinksList() {
                 <span>There is no links exist.</span>
             ) : (
                 links.map((v) => {
-                    const shortUrl = Meteor.absoluteUrl(
-                        v._id
-                    );
+                    const shortUrl = Meteor.absoluteUrl(v._id);
                     return (
                         <LinkListItem
                             key={`key${v._id}`}
@@ -33,6 +31,8 @@ function LinksList() {
                             url={v.url}
                             _id={v._id}
                             visible={v.visible}
+                            visitedCount={v.visitedCount}
+                            lastVisitedAt={v.lastVisitedAt}
                         />
                     );
                 })
