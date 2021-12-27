@@ -28,6 +28,7 @@ function AddLink() {
     return (
         <div>
             <button
+                className="button"
                 onClick={() => {
                     setModalOpen(true);
                 }}
@@ -35,6 +36,8 @@ function AddLink() {
                 + Add Link
             </button>
             <Modal
+                className="boxed-view__box"
+                overlayClassName="boxed-view boxed-view--modal"
                 ariaHideApp={false}
                 isOpen={modalOpen}
                 contentLabel="Add Link"
@@ -45,7 +48,7 @@ function AddLink() {
             >
                 <h1>Add Link</h1>
                 <p>{errMsg === '' ? '' : errMsg}</p>
-                <form onSubmit={sendAddLinks}>
+                <form onSubmit={sendAddLinks} className="boxed-view__form">
                     <input
                         type="text"
                         ref={urlRef}
@@ -55,9 +58,15 @@ function AddLink() {
                             setUrl(e.target.value.trim());
                         }}
                     />
-                    <button>Add Link</button>
+                    <button className="button">Add Link</button>
+                    <button
+                        type="button"
+                        className="button button--sencondary"
+                        onClick={handleModalClose}
+                    >
+                        Cancel
+                    </button>
                 </form>
-                <button onClick={handleModalClose}>Cancel</button>
             </Modal>
         </div>
     );

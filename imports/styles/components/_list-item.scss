@@ -1,0 +1,17 @@
+.list-item {
+    background-color: $light-grey;
+    border: 1px solid darken($light-grey, 8%);
+    margin-bottom: 1.4rem;
+    padding: 1.4rem;
+}
+
+.list-item__message {
+    color: $dark-grey;
+}
+
+.list-item__notfound {
+    color: $dark-grey;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}

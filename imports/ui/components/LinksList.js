@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Meteor } from 'meteor/meteor';
 import { useTracker } from 'meteor/react-meteor-data';
 import { Session } from 'meteor/session';
+import FlipMove from 'react-flip-move';
 
 import { Links_API } from '../../api/links';
 import LinkListItem from './LinkListItem';
@@ -18,24 +19,30 @@ function LinksList() {
     return (
         <>
             <h2>Your Links</h2>
-            <p>Link List</p>
             {links.length === 0 ? (
-                <span>There is no links exist.</span>
+                <div className="list-item">
+                    <p className="list-item__notfound">
+                        There is no links exist.
+                    </p>
+                </div>
             ) : (
-                links.map((v) => {
-                    const shortUrl = Meteor.absoluteUrl(v._id);
-                    return (
-                        <LinkListItem
-                            key={`key${v._id}`}
-                            shortUrl={shortUrl}
-                            url={v.url}
-                            _id={v._id}
-                            visible={v.visible}
-                            visitedCount={v.visitedCount}
-                            lastVisitedAt={v.lastVisitedAt}
-                        />
-                    );
-                })
+                <FlipMove maintainContainerHeight="true">
+                    {links.map((v) => {
+                        const shortUrl = Meteor.absoluteUrl(v._id);
+                        return (
+                            <div key={`key${v._id}`}>
+                                <LinkListItem
+                                    shortUrl={shortUrl}
+                                    url={v.url}
+                                    _id={v._id}
+                                    visible={v.visible}
+                                    visitedCount={v.visitedCount}
+                                    lastVisitedAt={v.lastVisitedAt}
+                                />
+                            </div>
+                        );
+                    })}
+                </FlipMove>
             )}
         </>
     );

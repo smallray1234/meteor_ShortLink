@@ -28,3 +28,12 @@
     display: flex;
     flex-direction: column;
 }
+
+.boxed-view--modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: fade-out($boxed-view-bg, 0.3);
+}

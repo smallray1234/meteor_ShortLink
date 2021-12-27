@@ -9,9 +9,13 @@ function PrivateHeader() {
         history.push('/');
     };
     return (
-        <div>
-            <h1>Links here</h1>
-            <button onClick={onLogout}>Logout</button>
+        <div className="header">
+            <div className="header__content">
+                <h1 className="header__title">Short Link App</h1>
+                <button className="button button--link-text" onClick={onLogout}>
+                    Logout
+                </button>
+            </div>
         </div>
     );
 }

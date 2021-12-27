@@ -33,15 +33,20 @@ function LinkListItem(props) {
         });
     }, []);
     return (
-        <>
-            <p>{url}</p>
-            <p>{shortUrl}</p>
-            <p>{visible.toString()}</p>
-            <p>{visit()}</p>
-            <a href={shortUrl} target="_blank">
+        <div className="list-item">
+            <h2>{url}</h2>
+            <p className="list-item__message">{shortUrl}</p>
+            {/* <p className="list-item__message">{visible.toString()}</p> */}
+            <p className="list-item__message">{visit()}</p>
+            <a
+                href={shortUrl}
+                target="_blank"
+                className="button button--pill button--link"
+            >
                 Visit
             </a>
             <button
+                className="button button--pill"
                 id="copyBtn"
                 data-clipboard-text={shortUrl}
                 onClick={handleCopy}
@@ -49,13 +54,14 @@ function LinkListItem(props) {
                 {isCopied ? 'Copied' : 'Copy'}
             </button>
             <button
+                className="button button--pill"
                 onClick={() => {
                     Meteor.call('links.setVisibleValue', _id, !visible);
                 }}
             >
                 {visible ? 'Hide' : 'Show'}
             </button>
-        </>
+        </div>
     );
 }
 

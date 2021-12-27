@@ -38,7 +38,9 @@ function SignUp(props) {
                         name="password"
                         placeholder="Password"
                     />
-                    <button type="submit">Create Account</button>
+                    <button type="submit" className="button">
+                        Create Account
+                    </button>
                 </form>
 
                 <p>Already have an account?</p>

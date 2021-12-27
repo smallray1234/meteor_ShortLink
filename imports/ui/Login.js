@@ -40,7 +40,9 @@ function Login(props) {
                         name="password"
                         placeholder="Password"
                     />
-                    <button type="submit">Login</button>
+                    <button type="submit" className="button">
+                        Login
+                    </button>
                 </form>
 
                 <p>Do not have an account?</p>

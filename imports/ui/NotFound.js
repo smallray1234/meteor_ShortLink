@@ -7,7 +7,9 @@ function NotFound() {
             <div className="boxed-view__box">
                 <h1>Page not found.</h1>
                 <p>Sorry, we can't find that page.</p>
-                <Link to="/">HeLinkdtoe</Link>
+                <Link to="/" className="button button--link">
+                    HeLinkdtoe
+                </Link>
             </div>
         </div>
     );

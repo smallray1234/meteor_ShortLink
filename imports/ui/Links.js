@@ -17,9 +17,11 @@ function Links(props) {
     return (
         <>
             <PrivateHeader />
-            <LinksFilter />
-            <AddLink />
-            <LinksList />
+            <div className="page-content">
+                <LinksFilter />
+                <AddLink />
+                <LinksList />
+            </div>
         </>
     );
 }
