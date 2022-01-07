@@ -10,6 +10,7 @@ import {
 
 import Home from './Home';
 import Links from './Links';
+import MDBConvert from './components/MDBConvert';
 import SignUp from './SignUp';
 import Login from './Login';
 import NotFound from './NotFound';
@@ -28,19 +29,14 @@ export function App() {
                     <Route path="/links">
                         <Links isAuth={isAuth} />
                     </Route>
+                    <Route path="/mdb-convert">
+                        <MDBConvert />
+                    </Route>
                     <Route path="/signup">
-                        {isAuth ? (
-                            <Redirect to="/" />
-                        ) : (
-                            <SignUp />
-                        )}
+                        {isAuth ? <Redirect to="/" /> : <SignUp />}
                     </Route>
                     <Route path="/login">
-                        {isAuth ? (
-                            <Redirect to="/links" />
-                        ) : (
-                            <Login />
-                        )}
+                        {isAuth ? <Redirect to="/links" /> : <Login />}
                     </Route>
                     <Route path="/" exact>
                         <Home isAuth={isAuth} />
