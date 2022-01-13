@@ -1,0 +1,88 @@
+TCV=7.08.00.P3
+TOS=04.01.2022 18:13:00
+MBR=12
+PPT=4
+PPN=vhf5axTX
+FBN=FBMW_M1000.cfb
+AOW=1
+MIT=269
+IND=1
+MAN=Zirconia -D
+MID=1
+BLN=Ø 98.5  h=14.0
+BID=2
+BIU=94
+BSE=14000
+STP=1
+SID=1000
+BLM=0
+NBA=0
+NSF=0
+MKC=1
+MKS=1
+MKR=50
+NPZ=0
+MND=0
+MPJ=0
+MLL=1
+MFP=0
+HMH=0
+ION=0
+A5L=1
+CST=0
+SCX=1.238
+SCY=1.238
+SCZ=1.238
+------------------------------------------------------------
+Tool$1 CAMNr=41 UsedTime=0
+Tool$2 CAMNr=42 UsedTime=0
+Tool$3 CAMNr=43 UsedTime=0
+------------------------------------------------------------
+W=1 T=1 Q=1 S=123929 STL=z:\2022\2022-01\20220104\25846\25846_0.stl SPID= PIF1= PIF2=
+------------------------------------------------------------
+DRL
+W0B1.txt
+W1B5.txt
+W1B6.txt
+W1B11.txt
+W1B13.txt
+W1B15.txt
+W1B16.txt
+W1B18.txt
+W1B20.txt
+W0B2.txt
+W1B23.txt
+W1B26.txt
+W1B27.txt
+W1B29.txt
+W1B31.txt
+W1B33.txt
+W1B34.txt
+W0B3.txt
+W1B46.txt
+W1B55.txt
+------------------------------------------------------------
+CLF
+
+W0B1.txt  1/4/2022 18:13:04  cT=0 s
+W1B5.txt  1/4/2022 18:13:36  cT=17 s
+W1B6.txt  1/4/2022 18:14:06  cT=29 s
+W1B11.txt  1/4/2022 18:14:11  cT=5 s
+W1B13.txt  1/4/2022 18:14:19  cT=8 s
+W1B15.txt  1/4/2022 18:14:25  cT=6 s
+W1B16.txt  1/4/2022 18:14:32  cT=7 s
+W1B18.txt  1/4/2022 18:14:37  cT=5 s
+W1B20.txt  1/4/2022 18:14:47  cT=9 s
+W0B2.txt  1/4/2022 18:14:47  cT=0 s
+W1B23.txt  1/4/2022 18:15:00  cT=13 s
+W1B26.txt  1/4/2022 18:15:16  cT=16 s
+W1B27.txt  1/4/2022 18:15:30  cT=14 s
+W1B29.txt  1/4/2022 18:15:41  cT=11 s
+W1B31.txt  1/4/2022 18:15:48  cT=7 s
+W1B33.txt  1/4/2022 18:15:49  cT=1 s
+W1B34.txt  1/4/2022 18:15:57  cT=8 s
+W0B3.txt  1/4/2022 18:15:57  cT=0 s
+W1B46.txt  1/4/2022 18:16:11  cT=14 s
+W1B55.txt  1/4/2022 18:16:20  cT=9 s
+TOE=1/4/2022 18:16:20
+CTm=3

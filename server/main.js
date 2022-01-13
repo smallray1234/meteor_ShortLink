@@ -7,6 +7,15 @@ import { Links_API } from '../imports/api/links';
 import '../imports/startup/simple-schema-config';
 
 Meteor.startup(() => {
+    // CORS
+    WebApp.rawConnectHandlers.use(function (req, res, next) {
+        res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader(
+            'Access-Control-Allow-Headers',
+            'Authorization,Content-Type'
+        );
+        return next();
+    });
     // 解析url
     WebApp.connectHandlers.use((req, res, next) => {
         const _id = req.url.slice(1); // 去掉路由的/ ex:/links

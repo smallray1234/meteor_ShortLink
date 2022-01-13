@@ -1,0 +1,139 @@
+TCV=7.08.00.P3
+TOS=09.01.2022 16:06:32
+MBR=12
+PPT=4
+PPN=vhf5axTX
+FBN=FBMW_M1000.cfb
+AOW=2
+MIT=852
+IND=1
+MAN=Zirconia -D
+MID=1
+BLN=Ø 98.5  h=18.0
+BID=2
+BIU=106
+BSE=18000
+STP=1
+SID=1000
+BLM=1
+NBA=0
+NSF=0
+MKC=1
+MKS=1
+MKR=50
+NPZ=0
+MND=0
+MPJ=0
+MLL=1
+MFP=0
+HMH=0
+ION=0
+A5L=1
+CST=0
+SCX=1.238
+SCY=1.238
+SCZ=1.238
+------------------------------------------------------------
+Tool$1 CAMNr=41 UsedTime=0
+Tool$2 CAMNr=42 UsedTime=0
+Tool$3 CAMNr=43 UsedTime=0
+------------------------------------------------------------
+W=1 T=1 Q=1 S=143793 STL=z:\2022\2022-01\20220109\26483\26483_0.stl SPID= PIF1= PIF2=
+W=2 T=1 Q=1 S=260315 STL=z:\2022\2022-01\20220109\26487\26487_0.stl SPID= PIF1= PIF2=
+------------------------------------------------------------
+DRL
+W0B1.txt
+W1B5.txt
+W2B5.txt
+W1B6.txt
+W1B11.txt
+W1B12.txt
+W1B13.txt
+W2B6.txt
+W2B11.txt
+W2B12.txt
+W2B13.txt
+W1B15.txt
+W1B16.txt
+W1B17.txt
+W1B18.txt
+W1B19.txt
+W1B20.txt
+W2B15.txt
+W2B16.txt
+W2B17.txt
+W2B18.txt
+W2B19.txt
+W2B20.txt
+W0B2.txt
+W1B23.txt
+W2B23.txt
+W1B26.txt
+W1B27.txt
+W1B29.txt
+W1B31.txt
+W1B32.txt
+W1B33.txt
+W2B26.txt
+W2B27.txt
+W2B29.txt
+W2B31.txt
+W2B32.txt
+W2B33.txt
+W1B34.txt
+W2B34.txt
+W0B3.txt
+W1B46.txt
+W1B55.txt
+W2B46.txt
+W2B55.txt
+------------------------------------------------------------
+CLF
+
+W0B1.txt  1/9/2022 16:06:36  cT=0 s
+W1B5.txt  1/9/2022 16:07:11  cT=20 s
+W2B5.txt  1/9/2022 16:08:01  cT=29 s
+W1B6.txt  1/9/2022 16:08:29  cT=28 s
+W1B11.txt  1/9/2022 16:08:34  cT=5 s
+W1B12.txt  1/9/2022 16:08:47  cT=13 s
+W1B13.txt  1/9/2022 16:08:57  cT=9 s
+W2B6.txt  1/9/2022 16:09:58  cT=60 s
+W2B11.txt  1/9/2022 16:10:07  cT=9 s
+W2B12.txt  1/9/2022 16:10:28  cT=20 s
+W2B13.txt  1/9/2022 16:10:45  cT=16 s
+W1B15.txt  1/9/2022 16:10:51  cT=6 s
+W1B16.txt  1/9/2022 16:10:59  cT=8 s
+W1B17.txt  1/9/2022 16:11:15  cT=15 s
+W1B18.txt  1/9/2022 16:11:20  cT=5 s
+W1B19.txt  1/9/2022 16:11:34  cT=14 s
+W1B20.txt  1/9/2022 16:11:45  cT=10 s
+W2B15.txt  1/9/2022 16:11:54  cT=9 s
+W2B16.txt  1/9/2022 16:12:08  cT=14 s
+W2B17.txt  1/9/2022 16:12:32  cT=23 s
+W2B18.txt  1/9/2022 16:12:41  cT=9 s
+W2B19.txt  1/9/2022 16:13:05  cT=24 s
+W2B20.txt  1/9/2022 16:13:23  cT=18 s
+W0B2.txt  1/9/2022 16:13:23  cT=0 s
+W1B23.txt  1/9/2022 16:13:39  cT=16 s
+W2B23.txt  1/9/2022 16:14:16  cT=36 s
+W1B26.txt  1/9/2022 16:14:34  cT=18 s
+W1B27.txt  1/9/2022 16:14:49  cT=14 s
+W1B29.txt  1/9/2022 16:15:01  cT=12 s
+W1B31.txt  1/9/2022 16:15:10  cT=9 s
+W1B32.txt  1/9/2022 16:15:20  cT=10 s
+W1B33.txt  1/9/2022 16:15:21  cT=1 s
+W2B26.txt  1/9/2022 16:16:06  cT=45 s
+W2B27.txt  1/9/2022 16:16:40  cT=34 s
+W2B29.txt  1/9/2022 16:16:59  cT=19 s
+W2B31.txt  1/9/2022 16:17:14  cT=15 s
+W2B32.txt  1/9/2022 16:17:33  cT=19 s
+W2B33.txt  1/9/2022 16:17:34  cT=1 s
+W1B34.txt  1/9/2022 16:17:43  cT=9 s
+W2B34.txt  1/9/2022 16:17:58  cT=14 s
+W0B3.txt  1/9/2022 16:17:58  cT=0 s
+W1B46.txt  1/9/2022 16:18:14  cT=16 s
+W1B55.txt  1/9/2022 16:18:27  cT=13 s
+W2B46.txt  1/9/2022 16:19:02  cT=35 s
+W2B55.txt  1/9/2022 16:19:19  cT=17 s
+TOE=1/9/2022 16:19:19
+CTm=13

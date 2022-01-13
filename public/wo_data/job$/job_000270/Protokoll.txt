@@ -1,0 +1,298 @@
+TCV=7.08.00.P3
+TOS=11.01.2022 13:56:01
+MBR=12
+PPT=4
+PPN=vhf5axTX
+FBN=FBMW_M1000.cfb
+AOW=7
+MIT=999
+IND=1
+MAN=Zirconia -D
+MID=1
+BLN=Ø 98.5  h=14.0
+BID=2
+BIU=108
+BSE=14000
+STP=1
+SID=1000
+BLM=1
+NBA=0
+NSF=0
+MKC=1
+MKS=1
+MKR=50
+NPZ=0
+MND=0
+MPJ=0
+MLL=1
+MFP=0
+HMH=0
+ION=0
+A5L=1
+CST=0
+SCX=1.238
+SCY=1.238
+SCZ=1.238
+------------------------------------------------------------
+Tool$1 CAMNr=41 UsedTime=0
+Tool$2 CAMNr=42 UsedTime=0
+Tool$3 CAMNr=43 UsedTime=0
+------------------------------------------------------------
+W=1 T=1 Q=1 S=35393 STL=z:\2022\2022-01\20220111\26868\26868_0.stl SPID= PIF1= PIF2=
+W=2 T=1 Q=1 S=44885 STL=z:\2022\2022-01\20220111\26537\26537_0.stl SPID= PIF1= PIF2=
+W=3 T=1 Q=1 S=54258 STL=z:\2022\2022-01\20220111\26881\26881_1.stl SPID= PIF1= PIF2=
+W=4 T=1 Q=1 S=151753 STL=z:\2022\2022-01\20220111\26530\26530_0.stl SPID= PIF1= PIF2=
+W=5 T=1 Q=1 S=41525 STL=z:\2022\2022-01\20220111\26881\26881_0.stl SPID= PIF1= PIF2=
+W=6 T=1 Q=1 S=72858 STL=z:\2022\2022-01\20220111\26524\26524_0.stl SPID= PIF1= PIF2=
+W=7 T=1 Q=1 S=74022 STL=z:\2022\2022-01\20220111\26525\26525_0.stl SPID= PIF1= PIF2=
+------------------------------------------------------------
+DRL
+W0B1.txt
+W1B5.txt
+W2B5.txt
+W3B5.txt
+W4B5.txt
+W5B5.txt
+W6B5.txt
+W7B5.txt
+W1B6.txt
+W1B11.txt
+W1B13.txt
+W2B6.txt
+W2B11.txt
+W2B13.txt
+W3B6.txt
+W3B11.txt
+W3B13.txt
+W4B6.txt
+W4B11.txt
+W4B13.txt
+W5B6.txt
+W5B11.txt
+W5B13.txt
+W6B6.txt
+W6B11.txt
+W6B13.txt
+W7B6.txt
+W7B11.txt
+W7B13.txt
+W1B15.txt
+W1B16.txt
+W1B18.txt
+W1B20.txt
+W2B15.txt
+W2B16.txt
+W2B18.txt
+W2B20.txt
+W3B15.txt
+W3B16.txt
+W3B18.txt
+W3B20.txt
+W4B15.txt
+W4B16.txt
+W4B18.txt
+W4B20.txt
+W5B15.txt
+W5B16.txt
+W5B18.txt
+W5B20.txt
+W6B15.txt
+W6B16.txt
+W6B18.txt
+W6B20.txt
+W7B15.txt
+W7B16.txt
+W7B18.txt
+W7B20.txt
+W0B2.txt
+W1B23.txt
+W2B23.txt
+W3B23.txt
+W4B23.txt
+W5B23.txt
+W6B23.txt
+W7B23.txt
+W1B26.txt
+W1B27.txt
+W1B29.txt
+W1B31.txt
+W1B33.txt
+W2B26.txt
+W2B27.txt
+W2B29.txt
+W2B31.txt
+W2B33.txt
+W3B26.txt
+W3B27.txt
+W3B29.txt
+W3B31.txt
+W3B33.txt
+W4B26.txt
+W4B27.txt
+W4B29.txt
+W4B31.txt
+W4B33.txt
+W5B26.txt
+W5B27.txt
+W5B29.txt
+W5B31.txt
+W5B33.txt
+W6B26.txt
+W6B27.txt
+W6B29.txt
+W6B31.txt
+W6B33.txt
+W7B26.txt
+W7B27.txt
+W7B29.txt
+W7B31.txt
+W7B33.txt
+W1B34.txt
+W2B34.txt
+W3B34.txt
+W4B34.txt
+W5B34.txt
+W6B34.txt
+W7B34.txt
+W0B3.txt
+W1B46.txt
+W1B55.txt
+W2B46.txt
+W2B55.txt
+W3B46.txt
+W3B55.txt
+W4B46.txt
+W4B55.txt
+W5B46.txt
+W5B55.txt
+W6B46.txt
+W6B55.txt
+W7B46.txt
+W7B55.txt
+------------------------------------------------------------
+CLF
+
+W0B1.txt  1/11/2022 13:56:05  cT=0 s
+W1B5.txt  1/11/2022 13:56:27  cT=10 s
+W2B5.txt  1/11/2022 13:56:50  cT=10 s
+W3B5.txt  1/11/2022 13:57:15  cT=13 s
+W4B5.txt  1/11/2022 13:57:54  cT=24 s
+W5B5.txt  1/11/2022 13:58:15  cT=8 s
+W6B5.txt  1/11/2022 13:58:41  cT=13 s
+W7B5.txt  1/11/2022 13:59:08  cT=14 s
+W1B6.txt  1/11/2022 13:59:21  cT=12 s
+W1B11.txt  1/11/2022 13:59:23  cT=2 s
+W1B13.txt  1/11/2022 13:59:26  cT=3 s
+W2B6.txt  1/11/2022 13:59:40  cT=13 s
+W2B11.txt  1/11/2022 13:59:42  cT=2 s
+W2B13.txt  1/11/2022 13:59:46  cT=4 s
+W3B6.txt  1/11/2022 14:00:01  cT=14 s
+W3B11.txt  1/11/2022 14:00:03  cT=2 s
+W3B13.txt  1/11/2022 14:00:08  cT=5 s
+W4B6.txt  1/11/2022 14:00:37  cT=29 s
+W4B11.txt  1/11/2022 14:00:43  cT=5 s
+W4B13.txt  1/11/2022 14:00:52  cT=9 s
+W5B6.txt  1/11/2022 14:01:05  cT=13 s
+W5B11.txt  1/11/2022 14:01:08  cT=3 s
+W5B13.txt  1/11/2022 14:01:11  cT=3 s
+W6B6.txt  1/11/2022 14:01:28  cT=17 s
+W6B11.txt  1/11/2022 14:01:31  cT=3 s
+W6B13.txt  1/11/2022 14:01:36  cT=5 s
+W7B6.txt  1/11/2022 14:01:53  cT=16 s
+W7B11.txt  1/11/2022 14:01:56  cT=3 s
+W7B13.txt  1/11/2022 14:02:02  cT=6 s
+W1B15.txt  1/11/2022 14:02:04  cT=2 s
+W1B16.txt  1/11/2022 14:02:07  cT=3 s
+W1B18.txt  1/11/2022 14:02:09  cT=2 s
+W1B20.txt  1/11/2022 14:02:12  cT=3 s
+W2B15.txt  1/11/2022 14:02:15  cT=3 s
+W2B16.txt  1/11/2022 14:02:18  cT=3 s
+W2B18.txt  1/11/2022 14:02:21  cT=2 s
+W2B20.txt  1/11/2022 14:02:24  cT=3 s
+W3B15.txt  1/11/2022 14:02:28  cT=4 s
+W3B16.txt  1/11/2022 14:02:32  cT=4 s
+W3B18.txt  1/11/2022 14:02:35  cT=3 s
+W3B20.txt  1/11/2022 14:02:39  cT=4 s
+W4B15.txt  1/11/2022 14:02:45  cT=5 s
+W4B16.txt  1/11/2022 14:02:50  cT=5 s
+W4B18.txt  1/11/2022 14:02:56  cT=6 s
+W4B20.txt  1/11/2022 14:03:07  cT=11 s
+W5B15.txt  1/11/2022 14:03:10  cT=3 s
+W5B16.txt  1/11/2022 14:03:13  cT=3 s
+W5B18.txt  1/11/2022 14:03:15  cT=2 s
+W5B20.txt  1/11/2022 14:03:19  cT=4 s
+W6B15.txt  1/11/2022 14:03:23  cT=4 s
+W6B16.txt  1/11/2022 14:03:27  cT=4 s
+W6B18.txt  1/11/2022 14:03:31  cT=3 s
+W6B20.txt  1/11/2022 14:03:36  cT=5 s
+W7B15.txt  1/11/2022 14:03:40  cT=4 s
+W7B16.txt  1/11/2022 14:03:45  cT=5 s
+W7B18.txt  1/11/2022 14:03:48  cT=3 s
+W7B20.txt  1/11/2022 14:03:54  cT=6 s
+W0B2.txt  1/11/2022 14:03:54  cT=0 s
+W1B23.txt  1/11/2022 14:03:59  cT=5 s
+W2B23.txt  1/11/2022 14:04:04  cT=5 s
+W3B23.txt  1/11/2022 14:04:10  cT=6 s
+W4B23.txt  1/11/2022 14:04:28  cT=18 s
+W5B23.txt  1/11/2022 14:04:32  cT=4 s
+W6B23.txt  1/11/2022 14:04:40  cT=8 s
+W7B23.txt  1/11/2022 14:04:47  cT=7 s
+W1B26.txt  1/11/2022 14:04:53  cT=6 s
+W1B27.txt  1/11/2022 14:04:58  cT=5 s
+W1B29.txt  1/11/2022 14:05:02  cT=4 s
+W1B31.txt  1/11/2022 14:05:05  cT=3 s
+W1B33.txt  1/11/2022 14:05:05  cT=0 s
+W2B26.txt  1/11/2022 14:05:11  cT=6 s
+W2B27.txt  1/11/2022 14:05:18  cT=7 s
+W2B29.txt  1/11/2022 14:05:21  cT=3 s
+W2B31.txt  1/11/2022 14:05:25  cT=4 s
+W2B33.txt  1/11/2022 14:05:25  cT=0 s
+W3B26.txt  1/11/2022 14:05:32  cT=7 s
+W3B27.txt  1/11/2022 14:05:38  cT=6 s
+W3B29.txt  1/11/2022 14:05:45  cT=7 s
+W3B31.txt  1/11/2022 14:05:49  cT=4 s
+W3B33.txt  1/11/2022 14:05:50  cT=1 s
+W4B26.txt  1/11/2022 14:06:08  cT=18 s
+W4B27.txt  1/11/2022 14:06:20  cT=12 s
+W4B29.txt  1/11/2022 14:06:31  cT=11 s
+W4B31.txt  1/11/2022 14:06:37  cT=6 s
+W4B33.txt  1/11/2022 14:06:38  cT=1 s
+W5B26.txt  1/11/2022 14:06:43  cT=5 s
+W5B27.txt  1/11/2022 14:06:49  cT=6 s
+W5B29.txt  1/11/2022 14:06:54  cT=5 s
+W5B31.txt  1/11/2022 14:06:57  cT=3 s
+W5B33.txt  1/11/2022 14:06:58  cT=1 s
+W6B26.txt  1/11/2022 14:07:06  cT=8 s
+W6B27.txt  1/11/2022 14:07:14  cT=8 s
+W6B29.txt  1/11/2022 14:07:20  cT=6 s
+W6B31.txt  1/11/2022 14:07:24  cT=4 s
+W6B33.txt  1/11/2022 14:07:25  cT=1 s
+W7B26.txt  1/11/2022 14:07:33  cT=8 s
+W7B27.txt  1/11/2022 14:07:42  cT=9 s
+W7B29.txt  1/11/2022 14:07:50  cT=8 s
+W7B31.txt  1/11/2022 14:07:55  cT=5 s
+W7B33.txt  1/11/2022 14:07:56  cT=1 s
+W1B34.txt  1/11/2022 14:07:58  cT=2 s
+W2B34.txt  1/11/2022 14:08:01  cT=3 s
+W3B34.txt  1/11/2022 14:08:06  cT=5 s
+W4B34.txt  1/11/2022 14:08:17  cT=11 s
+W5B34.txt  1/11/2022 14:08:20  cT=3 s
+W6B34.txt  1/11/2022 14:08:25  cT=5 s
+W7B34.txt  1/11/2022 14:08:31  cT=6 s
+W0B3.txt  1/11/2022 14:08:31  cT=0 s
+W1B46.txt  1/11/2022 14:08:36  cT=5 s
+W1B55.txt  1/11/2022 14:08:39  cT=3 s
+W2B46.txt  1/11/2022 14:08:44  cT=5 s
+W2B55.txt  1/11/2022 14:08:47  cT=3 s
+W3B46.txt  1/11/2022 14:08:53  cT=6 s
+W3B55.txt  1/11/2022 14:08:57  cT=4 s
+W4B46.txt  1/11/2022 14:09:16  cT=19 s
+W4B55.txt  1/11/2022 14:09:29  cT=13 s
+W5B46.txt  1/11/2022 14:09:34  cT=5 s
+W5B55.txt  1/11/2022 14:09:37  cT=3 s
+W6B46.txt  1/11/2022 14:09:45  cT=8 s
+W6B55.txt  1/11/2022 14:09:49  cT=4 s
+W7B46.txt  1/11/2022 14:09:57  cT=8 s
+W7B55.txt  1/11/2022 14:10:04  cT=6 s
+TOE=1/11/2022 14:10:04
+CTm=14

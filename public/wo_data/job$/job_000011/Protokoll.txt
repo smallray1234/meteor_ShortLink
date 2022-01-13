@@ -1,0 +1,88 @@
+TCV=7.08.00.P3
+TOS=02.10.2021 13:01:20
+MBR=12
+PPT=4
+PPN=vhf5axTX
+FBN=FBMW_M1000.cfb
+AOW=1
+MIT=477
+IND=1
+MAN=Zirconia -D
+MID=1
+BLN=Ø 98.5  h=25.0
+BID=2
+BIU=26
+BSE=25000
+STP=1
+SID=1000
+BLM=1
+NBA=0
+NSF=0
+MKC=1
+MKS=1
+MKR=50
+NPZ=0
+MND=0
+MPJ=0
+MLL=1
+MFP=0
+HMH=0
+ION=0
+A5L=1
+CST=0
+SCX=1.227
+SCY=1.227
+SCZ=1.227
+------------------------------------------------------------
+Tool$1 CAMNr=41 UsedTime=0
+Tool$2 CAMNr=42 UsedTime=0
+Tool$3 CAMNr=43 UsedTime=0
+------------------------------------------------------------
+W=1 T=1 Q=1 S=223985 STL=C:\Users\jun.hu\Desktop\VHF Work\18598\18598_0.stl SPID= PIF1= PIF2=
+------------------------------------------------------------
+DRL
+W0B1.txt
+W1B5.txt
+W1B6.txt
+W1B11.txt
+W1B13.txt
+W1B15.txt
+W1B16.txt
+W1B18.txt
+W1B20.txt
+W0B2.txt
+W1B23.txt
+W1B26.txt
+W1B27.txt
+W1B29.txt
+W1B31.txt
+W1B33.txt
+W1B34.txt
+W0B3.txt
+W1B46.txt
+W1B55.txt
+------------------------------------------------------------
+CLF
+
+W0B1.txt  10/2/2021 1:01:23 PM  cT=0 s
+W1B5.txt  10/2/2021 1:02:18 PM  cT=36 s
+W1B6.txt  10/2/2021 1:03:05 PM  cT=46 s
+W1B11.txt  10/2/2021 1:03:12 PM  cT=7 s
+W1B13.txt  10/2/2021 1:03:25 PM  cT=11 s
+W1B15.txt  10/2/2021 1:03:33 PM  cT=8 s
+W1B16.txt  10/2/2021 1:03:43 PM  cT=10 s
+W1B18.txt  10/2/2021 1:03:51 PM  cT=8 s
+W1B20.txt  10/2/2021 1:04:06 PM  cT=14 s
+W0B2.txt  10/2/2021 1:04:06 PM  cT=0 s
+W1B23.txt  10/2/2021 1:04:32 PM  cT=26 s
+W1B26.txt  10/2/2021 1:04:56 PM  cT=24 s
+W1B27.txt  10/2/2021 1:05:17 PM  cT=21 s
+W1B29.txt  10/2/2021 1:05:30 PM  cT=13 s
+W1B31.txt  10/2/2021 1:05:42 PM  cT=12 s
+W1B33.txt  10/2/2021 1:05:43 PM  cT=1 s
+W1B34.txt  10/2/2021 1:05:55 PM  cT=12 s
+W0B3.txt  10/2/2021 1:05:55 PM  cT=0 s
+W1B46.txt  10/2/2021 1:06:25 PM  cT=30 s
+W1B55.txt  10/2/2021 1:06:37 PM  cT=11 s
+TOE=10/2/2021 1:06:37 PM
+CTm=5
